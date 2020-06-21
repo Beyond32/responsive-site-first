@@ -1,0 +1,138 @@
+@media (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+  .person-info {
+    & p {
+      width: 70%;
+    }
+  }
+  .person-photos {
+    justify-content: space-evenly;
+  }
+  .person-photos-box {
+    display: flex;
+    flex-direction: column;
+    & > div {
+      justify-content: space-between;
+    }
+    & img {
+      // margin-bottom: 10px;
+    }
+  }
+  .provide-second-first {
+    & p {
+      width: 100%;
+      padding-right: 5px;
+    }
+  }
+  .provide-second-second {
+    & p {
+      width: 100%;
+      padding-right: 5px;
+    }
+  }
+  .meet-our-team-header {
+    width: 80%;
+  }
+}
+@media (max-width: 860px) {
+  .header-bg-color {
+    height: 1000px;
+  }
+  .video-block {
+    display: none;
+  }
+  .vidio-visible {
+    display: block;
+    height: 400px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .main-info-block-first {
+    width: 100%;
+    & p {
+      padding-right: 0px;
+    }
+  }
+  .meet-our-team-header {
+    width: 100%;
+  }
+  .provide-box {
+    flex-direction: column;
+  }
+  .provide-first {
+    width: 100%;
+    & p {
+      width: 100%;
+    }
+  }
+
+  .provide-second {
+    width: 100%;
+  }
+  .feature-intro-list {
+    text-align: center;
+    & ul li a {
+      font-size: 15px;
+    }
+  }
+  .container {
+    width: 100%;
+    padding: 0px 5px;
+  }
+  .person-info {
+    & p {
+      width: 100%;
+    }
+  }
+  .meet-our-person {
+    display: row;
+    flex-direction: column;
+  }
+}
+@media (max-width: 800px) {
+  .get-in-contact-box {
+    flex-direction: column;
+  }
+  .contact-info-box {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .get-in-form {
+    width: 100%;
+  }
+}
+@media (max-width: 550px) {
+  .feature-intro-list {
+    & ul li {
+      margin-right: 10px;
+    }
+  }
+}
+
+@media (max-width: 440px) {
+  .contact-us {
+    & h1 {
+      padding-top: 60px;
+      font-size: 35px;
+    }
+  }
+  .contact-us-form {
+    & button {
+      margin-top: 10px;
+    }
+  }
+}
+@media (max-width: 430px) {
+  .main-info-block-first {
+    h1 {
+      font-size: 45px;
+    }
+    .feature-intro-list {
+      & ul li a {
+        font-size: 10px;
+      }
+    }
+  }
+}
