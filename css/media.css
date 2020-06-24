@@ -49,6 +49,7 @@
     height: 400px;
     margin-top: 20px;
     width: 100%;
+    padding-bottom: 20%;
   }
   .main-info-block-first {
     width: 100%;
@@ -97,6 +98,15 @@
 }
 
 @media (max-width: 800px) {
+  .meet-our-red-line {
+    width: 40%;
+  }
+  .get-in-touch-header p {
+    width: 80%;
+  }
+  .person-photo {
+    margin-right: 0px;
+  }
   .get-in-contact-box {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -109,12 +119,97 @@
   }
   .get-in-form {
     width: 100%;
+    margin-right: 0px;
   }
 }
 
 @media (max-width: 550px) {
+  .get-in-touch-header h1 {
+    padding-left: 5px;
+  }
+  .get-in-touch-header p {
+    padding-left: 5px;
+  }
+  .provide-second-first p {
+    padding-right: 0px;
+  }
+  .provide-second-second p {
+    padding-right: 0px;
+  }
+  .provide-second {
+    padding-left: 5px;
+  }
+  .meet-our-red-line {
+    width: 80%;
+  }
+  .person-photo {
+    margin: auto;
+  }
+  .get-in-form-input {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .get-in-form-input input {
+    margin: 0px;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .get-in-form-input input:first-child {
+    margin-right: 0px;
+  }
+  .test-show-hamburger-nav {
+    display: none;
+  }
+  .show-nav-bar-hamburger {
+    display: block;
+    width: 50px;
+  }
+  .show-nav-bar-hamburger img {
+    width: 100%;
+    height: 100%;
+  }
+  .person-photos-box > div {
+    width: 100%;
+  }
+  .person-photos-box img {
+    padding-right: 5px;
+  }
+  .get-in-touch-header p {
+    width: 100%;
+  }
+  .provide-first h1 {
+    font-size: 32px;
+  }
+  .provide-second-first-first {
+    margin-bottom: 15px;
+  }
+  .provide-second-second-first {
+    margin-bottom: 15px;
+  }
+  .provide-second-first {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .provide-second-second {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .feature-intro-list ul li {
     margin-right: 10px;
+  }
+  .container {
+    width: 100%;
+    padding: 0 0px;
+    margin: 0 auto;
+  }
+  .main-info-block-first h1 {
+    font-size: 45px;
   }
 }
 
@@ -129,9 +224,6 @@
 }
 
 @media (max-width: 430px) {
-  .main-info-block-first h1 {
-    font-size: 45px;
-  }
   .main-info-block-first .feature-intro-list ul li a {
     font-size: 10px;
   }
