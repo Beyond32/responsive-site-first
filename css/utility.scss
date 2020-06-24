@@ -1,0 +1,53 @@
+$gray-color: #494848;
+
+$sm: 476px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+$sm-pad: 25px;
+$md-pad: 40px;
+$lg-pad: 80px;
+$xl-pad: 150px;
+
+$section-pad: $sm-pad 0;
+$section-pad-md: $md-pad 0;
+$section-pad-lg: $lg-pad 0;
+$section-pad-xl: $xl-pad 0;
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media screen and (min-width: $sm) {
+    max-width: 540px;
+  }
+  @media screen and (min-width: $md) {
+    max-width: 720px;
+  }
+  @media screen and (min-width: $lg) {
+    max-width: 975px;
+  }
+  @media screen and (min-width: $xl) {
+    max-width: 1140px;
+  }
+}
+
+.section {
+  padding: $section-pad;
+
+  &.section-huge-pad {
+    padding: $section-pad-lg;
+  }
+
+  @media screen and (min-width: $md) {
+    padding: $section-pad-md;
+
+    &.section-huge-pad {
+      padding: $section-pad-xl;
+    }
+  }
+}

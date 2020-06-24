@@ -1,0 +1,49 @@
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 476px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 975px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.section {
+  padding: 25px 0;
+}
+
+.section.section-huge-pad {
+  padding: 80px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    padding: 40px 0;
+  }
+  .section.section-huge-pad {
+    padding: 150px 0;
+  }
+}
+/*# sourceMappingURL=utility.css.map */

@@ -1,96 +1,4 @@
-@media (max-width: 1200px) {
-  .person-info p {
-    width: 70%;
-  }
-  .person-photos {
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-  }
-  .person-photos-box {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .person-photos-box > div {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .provide-second-first p {
-    width: 100%;
-    padding-right: 5px;
-  }
-  .provide-second-second p {
-    width: 100%;
-    padding-right: 5px;
-  }
-  .meet-our-team-header {
-    width: 80%;
-  }
-}
-
-@media (max-width: 860px) {
-  .video-block {
-    display: none;
-  }
-  .vidio-visible {
-    display: block;
-    height: 400px;
-    margin-top: 20px;
-    width: 100%;
-    padding-bottom: 20%;
-  }
-  .meet-our-team-header {
-    width: 100%;
-  }
-  .provide-box {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .provide-first {
-    width: 100%;
-  }
-  .provide-first p {
-    width: 100%;
-  }
-  .provide-second {
-    width: 100%;
-  }
-  .feature-intro-list {
-    text-align: center;
-  }
-  .feature-intro-list ul li a {
-    font-size: 15px;
-  }
-  .person-info p {
-    width: 100%;
-  }
-  .meet-our-person {
-    display: row;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
 @media (max-width: 800px) {
-  .meet-our-red-line {
-    width: 40%;
-  }
-  .get-in-touch-header p {
-    width: 80%;
-  }
-  .person-photo {
-    margin-right: 0px;
-  }
   .get-in-contact-box {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -108,20 +16,6 @@
 }
 
 @media (max-width: 550px) {
-  .meet-our-team-header p {
-    text-align: justify;
-    padding-right: 5px;
-  }
-  .person-info {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-  .person-info p {
-    text-align: justify;
-  }
-  .feature-intro-img {
-    padding-left: 5px;
-  }
   .get-in-touch-header h1 {
     padding-left: 5px;
   }
@@ -129,24 +23,7 @@
     padding-left: 5px;
     padding-right: 5px;
     text-align: justify;
-  }
-  .provide-second-first p {
-    padding-right: 0px;
-    text-align: justify;
-  }
-  .provide-second-second p {
-    padding-right: 0px;
-    text-align: justify;
-  }
-  .provide-second {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-  .meet-our-red-line {
-    width: 80%;
-  }
-  .person-photo {
-    margin: auto;
+    width: 100%;
   }
   .get-in-form-input {
     -webkit-box-orient: vertical;
@@ -184,46 +61,6 @@
     width: 100%;
     height: 100%;
   }
-  .person-photos-box > div {
-    width: 100%;
-  }
-  .person-photos-box img {
-    padding-right: 5px;
-  }
-  .get-in-touch-header p {
-    width: 100%;
-  }
-  .provide-first {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-  .provide-first p {
-    text-align: justify;
-  }
-  .provide-first h1 {
-    font-size: 32px;
-  }
-  .provide-second-first-first {
-    margin-bottom: 15px;
-  }
-  .provide-second-second-first {
-    margin-bottom: 15px;
-  }
-  .provide-second-first {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .provide-second-second {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .feature-intro-list ul li {
-    margin-right: 10px;
-  }
 }
 
 @media (max-width: 440px) {
@@ -233,15 +70,6 @@
   }
   .contact-us-form button {
     margin-top: 10px;
-  }
-}
-
-@media (max-width: 430px) {
-  .person-photos-box-left-side {
-    padding-left: 5px;
-  }
-  .main-info-block-first .feature-intro-list ul li a {
-    font-size: 10px;
   }
 }
 /*# sourceMappingURL=media.css.map */
