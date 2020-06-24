@@ -1,7 +1,4 @@
 @media (max-width: 1200px) {
-  .container {
-    width: 90%;
-  }
   .person-info {
     & p {
       width: 70%;
@@ -15,9 +12,6 @@
     flex-direction: column;
     & > div {
       justify-content: space-between;
-    }
-    & img {
-      // margin-bottom: 10px;
     }
   }
   .provide-second-first {
@@ -37,9 +31,6 @@
   }
 }
 @media (max-width: 860px) {
-  .header-bg-color {
-    height: 1000px;
-  }
   .video-block {
     display: none;
   }
@@ -49,12 +40,6 @@
     margin-top: 20px;
     width: 100%;
     padding-bottom: 20%;
-  }
-  .main-info-block-first {
-    width: 100%;
-    & p {
-      padding-right: 0px;
-    }
   }
   .meet-our-team-header {
     width: 100%;
@@ -77,10 +62,6 @@
     & ul li a {
       font-size: 15px;
     }
-  }
-  .container {
-    width: 100%;
-    padding: 0px 5px;
   }
   .person-info {
     & p {
@@ -122,9 +103,6 @@
       text-align: justify;
       padding-right: 5px;
     }
-  }
-  .red-line {
-    width: 50%;
   }
   .person-info {
     padding-left: 5px;
@@ -184,11 +162,19 @@
     display: none;
   }
   .show-nav-bar-hamburger {
-    display: block;
-    width: 50px;
-    & img {
-      width: 100%;
-      height: 100%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 69px;
+
+    & > a {
+      display: block;
+      width: 45px;
+      height: 45px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
     }
   }
   .person-photos-box {
@@ -229,21 +215,6 @@
   .feature-intro-list {
     & ul li {
       margin-right: 10px;
-    }
-  }
-  .container {
-    width: 100%;
-    padding: 0 0px;
-    margin: 0 auto;
-  }
-  .main-info-block-first {
-    padding-left: 5px;
-    padding-right: 5px;
-    & p {
-      text-align: justify;
-    }
-    & h1 {
-      font-size: 45px;
     }
   }
 }
